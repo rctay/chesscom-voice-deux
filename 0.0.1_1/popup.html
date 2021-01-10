@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      h4 {
+        margin-bottom: 0.5em;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h4>Voice:</h4>
+      <div>
+        <input type="radio" id="voice-default" name="voice" value="default">
+        <label for="voice-default">Default</label>
+      </div>
+
+      <div>
+        <input type="radio" id="voice-danny" name="voice" value="danny">
+        <label for="voice-danny">Danny</label>
+      </div>
+
+      <div>
+        <input type="radio" id="voice-off" name="voice" value="off">
+        <label for="voice-off">Off</label>
+      </div>
+    </div>
+    <div>
+      <h4>Volume:</h4>
+      <div>
+        <input type="range" id="volume" name="volume" min="0" max="100" step="10">
+      </div>
+    </div>
+
+    <script type="module" src="js/popup.js"></script>
+  <script type="text/javascript" src="popup.bundle.js"></script></body>
+</html>
