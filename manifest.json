@@ -16,12 +16,10 @@
    "icons": {
       "128": "icon-128.png"
    },
-   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1eDOnBUASyNF/zKRyxC0i/eWfQ9HPrV219dWK/0V0/rjE9Bsb3OBIhFxfsgKTp3Uz09h46sM68aRBPaiaB9SkT72h+YWS9BzMK+sCsnhhEkDglHBxtWUQPx80QDcd1y37Nkfy82LBbpxNKS3swLOdMcfCU/4t4zFSSpLlEZaf4C9+eO2AvrKOjdlHLvBaoD0u2aQTXqSC/4V0ySmQvIZy6/HkIzPV5hpdUvhiVam6rqvYH9yeiK4JWXBJ1qTGUMsqeYYMLlktl0Q98kNWDT7uMi8pcR1znaga05OFGCVeXty3AEzbHjlVlHvrNLJP7dAiRsF4qT15fiWEdS+AXK9OwIDAQAB",
    "manifest_version": 2,
-   "name": "Chess.com Voice Commentary",
+   "name": "Chess.com Voice Commentary (improved)",
    "options_page": "options.html",
    "permissions": [ "storage" ],
-   "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "0.0.1",
+   "version": "1.0.0",
    "web_accessible_resources": [ "sounds/*" ]
 }
